@@ -16,9 +16,9 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
           <Switch>
-              <Route pathe={ROUTES.home} exact component={Home} />
-              <Route pathe={ROUTES.about} component={About} />
-              <Route pathe={ROUTES.contact} component={Contact} />
+              <Route path={ROUTES.home} exact component={Home}  />
+              <Route path={ROUTES.about} component={About} />
+              <Route path={ROUTES.contact} component={Contact} />
           </Switch>
       </Router>
   </React.StrictMode>,

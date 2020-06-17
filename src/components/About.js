@@ -20,7 +20,7 @@ class About extends Component {
                 {/* testimonial */}
                 <section className="testimonial p-5">
                     <div className="row py-3 justify-content-center mx-0 text-white">
-                        <div className="col-lg-3 col-md-6 col-sm-12 row">
+                        <div className="col-lg-3 col-md-6 col-sm-12 row testimonial-item">
                             <div className="col-3">
                                 <Briefcase size={40}/>
                             </div>
@@ -29,7 +29,7 @@ class About extends Component {
                                 <p className="text-uppercase">Project Completed</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 row">
+                        <div className="col-lg-3 col-md-6 col-sm-12 row testimonial-item">
                             <div className="col-3">
                                 <Clock size={40}/>
                             </div>
@@ -38,7 +38,7 @@ class About extends Component {
                                 <p className="text-uppercase">Work Hours</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 row">
+                        <div className="col-lg-3 col-md-6 col-sm-12 row testimonial-item">
                             <div className="col-3">
                                 <Star size={40}/>
                             </div>
@@ -47,7 +47,7 @@ class About extends Component {
                                 <p className="text-uppercase">Positive Feedback</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 row">
+                        <div className="col-lg-3 col-md-6 col-sm-12 row testimonial-item">
                             <div className="col-3">
                                 <Heart size={40}/>
                             </div>
@@ -62,8 +62,8 @@ class About extends Component {
                 {/* introduction */}
                 <section className="introduction">
                     <div className="row mx-0">
-                        <div className="col-md-6 col-sm-12 bg-dark about-me-image" style={{backgroundImage: `url(/assets/img/about-me.jpg)`}}></div>
-                        <div className="col-md-6 col-sm-12 px-5 py-5 bg-light text-center">
+                        <div className="col-lg-6 col-sm-12 bg-dark about-me-image" style={{backgroundImage: `url(/assets/img/about-me.jpg)`}}></div>
+                        <div className="col-lg-6 col-sm-12 px-5 py-5 bg-light text-center">
                             <div className="w-75 d-inline-block py-5 text-left">
                                 <h3 className="text-left">About me</h3>
                                 <p className="text-justify mb-5">

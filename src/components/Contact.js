@@ -1,13 +1,11 @@
 import React,{Component} from "react";
 import MasterLayout from "./MasterLayout";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
 
 class Contact extends Component{
 
     render() {
         return(
-            <MasterLayout navBg="bg-white">
+            <MasterLayout navBg="bg-white" bg="bg-light">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5 py-5">
@@ -31,7 +29,7 @@ class Contact extends Component{
                                 <strong>Fax:</strong> +92-331-4173882
                             </div>
                         </div>
-                        <div className="col-md-7 py-5 pr-0">
+                        <div className="col-md-7 py-5 px-0">
                             <form action="" method="">
                                 <div className="row mx-0">
                                     <div className="col-md-6 form-group">

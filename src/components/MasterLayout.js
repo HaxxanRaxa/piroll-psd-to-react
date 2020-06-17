@@ -6,7 +6,7 @@ class MasterLayout extends Component{
     render() {
 
         return(
-            <div className="container-fluid px-0">
+            <div className={this.props.bg + " container-fluid px-0"}>
                 <NavBar bg={this.props.navBg}/>
                 {this.props.children}
                 <Footer/>

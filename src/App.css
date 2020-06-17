@@ -106,3 +106,55 @@ header.about-me:before{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/* navigation menu sliding effect */
+.slide-right-to-left{
+  left: -100% !important;
+}
+.slide-left-to-right{
+  left: 0 !important;
+}
+
+button.navbar-toggler[aria-expanded="true"]{
+  position: absolute;
+  z-index: 1111;
+  right: 15px;
+  border-color: #ffffff;
+  outline: none;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  header p.freelancer-bio, section.need-project p{
+    width: 80%;
+  }
+
+  .testimonial .testimonial-item:not(:last-child){
+    margin-bottom: 20px;
+  }
+
+  nav.navbar{
+    position: unset;
+  }
+
+  .navbar-collapse.collapse{
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    left: -100%;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    transition: left 500ms;
+  }
+
+  .navbar-collapse.collapse .navbar-nav{
+    margin-right: auto;
+  }
+
+  header.about-me{
+    min-height: 250px;
+  }
+}

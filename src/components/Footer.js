@@ -41,8 +41,8 @@ class Footer extends Component{
                                 <div className="col-4">
                                     <ul className="list-unstyled">
                                         <li><a href="https://facebook.com/hassanraza.bsse" className="text-white">Facebook</a></li>
-                                        <li><a href="https://twitter.com/hraza143" className="text-white">Twitter</a></li>
-                                        <li><a href="https://instagra.com/_haxxan_raxa" className="text-white">Instagram</a></li>
+                                        <li><a href="https://twitter.com/imHaxxanRaxa" className="text-white">Twitter</a></li>
+                                        <li><a href="https://instagram.com/_haxxan_raxa" className="text-white">Instagram</a></li>
                                         <li><a href="http://github.com/haxxanraxa" className="text-white">GitHub</a></li>
                                     </ul>
                                 </div>
